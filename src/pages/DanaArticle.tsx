@@ -15,7 +15,7 @@ export default function DanaArticle(): React.ReactElement {
                                     The Crystal Times
                                 </div>
                             </section>
-                            <div className="w-[600px] text-left border-b mx-auto pt-8">
+                            <div className="md:w-[600px] text-left border-b mx-auto pt-8">
                                 <h1 className="text-[2.9375rem] leading-[3.4375rem] pb-4">Sheridan students interviewed for reasons.</h1>
                                 <div className="text-2xl pb-12 opacity-85">
                                     Eric Kim roasted dozens of birds and taste-tested eight different recipes before landing on this clever approach.
@@ -45,13 +45,13 @@ export default function DanaArticle(): React.ReactElement {
                                 </div>
                             </div>
 
-                            <div className="w-[600px] m-auto text-left font-franklin text-sm">
+                            <div className="md:w-[600px] m-auto text-left font-franklin text-sm">
                                 Nov. 21, 2024
                             </div>
                             
                         </header>
-                        <section className="w-[600px] m-auto">
-                            <div className="text-2xl leading-[1.875rem]">
+                        <section className="md:w-[600px] m-auto">
+                            <div className="md:text-2xl text-xl leading-[1.875rem]">
                                 <div className="pt-4 pb-8 whitespace-pre-wrap text-wrap">
                                     <ReactMarkdown>{danaContent}</ReactMarkdown>
                                 </div>
