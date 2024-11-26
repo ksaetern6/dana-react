@@ -1,0 +1,59 @@
+#root {
+  /* font-family: nyt-franklin-sb */
+  /* max-width: 1200px; */
+  /* margin: auto; */
+  /* padding: 2rem;
+  text-align: center; */
+}
+
+body {
+  margin: auto;
+  max-width: 1200px;
+}
+
+figcaption {
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  color: hsl(0, 0%, 44.71%, 1);
+  margin-top: 0.25rem;
+  font-size: 0.6875rem;
+  text-align: right;
+}
+
+.nav-links {
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+}
+
+article > * h1 {
+  font-family: nyt-cheltenham,helvetica,arial,sans-serif;
+}
+
+.font-franklin {
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+}
+
+.font-imperial {
+  font-family: nyt-imperial,georgia,'times new roman',times,Songti SC,simsun,serif
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

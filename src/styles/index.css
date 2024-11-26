@@ -1,0 +1,129 @@
+@font-face {
+  font-family: "nyt-franklin";
+  src: local("franklin-normal-500"), 
+    url("../fonts/franklin-normal-500.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "nyt-franklin";
+  src: local("franklin-normal-600"), 
+    url("../fonts/franklin-normal-600.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: "nyt-cheltenham";
+  src: local("franklin-normal-400"), 
+    url("../fonts/cheltenham-normal-400.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: "nyt-cheltenham";
+  src: local("franklin-normal-500"), 
+    url("../fonts/cheltenham-normal-700.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: "nyt-imperial";
+  src: local("franklin-normal-500"), 
+    url("../fonts/imperial-normal-500.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: "nyt-imperial";
+  src: local("franklin-normal-600"), 
+    url("../fonts/imperial-normal-600.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+:root {
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  line-height: 0.875rem;
+  font-weight: 500;
+  font-size: 0.875rem;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: hsl(0 0% 100%);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  font-family: nyt-cheltenham,helvetica,arial,sans-serif;
+}
+
+.article-summary {
+  font-family: nyt-imperial,georgia,'times new roman',times,Songti SC,simsun,serif
+}
+
+.article-time {
+  font-family: nyt-franklin,georgia,'times new roman',times,Songti SC,simsun,serif
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+/* body { */
+  /* margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh; */
+/* } */
+
+/* h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+} */
+
+/* button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+} */
+
+/* @media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */

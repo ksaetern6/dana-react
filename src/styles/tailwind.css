@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+    --color-content-primary: hsl(0 0% 7.06%);
+      /* --color-primary: hsl(0 0% 100%); */
+      /* --color-secondary: rgb(111 114 185); */
+    }
+
+    body {
+        color: var(--color-content-primary);
+    }
+  }
