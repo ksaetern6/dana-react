@@ -5,6 +5,7 @@ interface ArticleLayoutProps {
 export default function ArticleLayout({ children }: ArticleLayoutProps): React.ReactElement {
     return (
         <>
+            <title>Main Article</title>
             { children }
         </>
     )

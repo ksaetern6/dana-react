@@ -6,11 +6,6 @@
   text-align: center; */
 }
 
-body {
-  margin: auto;
-  max-width: 1200px;
-}
-
 figcaption {
   font-family: nyt-franklin,helvetica,arial,sans-serif;
   color: hsl(0, 0%, 44.71%, 1);
