@@ -1,10 +1,11 @@
-import HeaderLink from "./Header/HeaderLink";
-import Nav from "./Header/Nav";
+import HeaderLink from "./Header/HeaderLink"
+import Nav from "./Header/Nav"
+import logo from "../assets/the-coerthan- herald-logo.png"
 
 export default function Header() {
     
     const countries = [
-        {id: 1, name: "u.s.", primary: true }, 
+        {id: 1, name: "u.s.", primary: true}, 
         {id: 2, name: "international"}, 
         {id: 3, name: "canada"}, 
         {id: 4, name: "espanol"}, 
@@ -23,7 +24,9 @@ export default function Header() {
                     </div>
                 </section>
                 <section className="pt-2">
-                    <h1 className="text-3xl text-center">The Crystal Times</h1>
+                    <div className="flex justify-center">
+                        <img src={logo} className="md:w-[500px] w-[250px]"></img>
+                    </div>
                 </section>
                 <div className="pt-4 pb-1 border-b border-black">
                     <Nav></Nav>

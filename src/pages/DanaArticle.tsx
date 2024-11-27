@@ -2,6 +2,8 @@ import ArticleLayout from "../layouts/ArticleLayout"
 import bruno from "../assets/bruno.webp"
 import ReactMarkdown from 'react-markdown';
 import danaContent from "../markdown/dana.md?raw"
+import logo from "../assets/the-coerthan- herald-logo.png"
+import { Link } from "react-router-dom";
 
 export default function DanaArticle(): React.ReactElement {
     return (
@@ -11,8 +13,8 @@ export default function DanaArticle(): React.ReactElement {
                     <article>
                         <header className="text-center mx-auto">
                             <section>
-                                <div className="text-2xl font-bold border-b py-4">
-                                    The Crystal Times
+                                <div className="flex justify-center py-4 border-b">
+                                    <Link to="/"><img src={logo} className="w-[250px]"></img></Link>
                                 </div>
                             </section>
                             <div className="md:w-[600px] text-left border-b mx-auto pt-8">
