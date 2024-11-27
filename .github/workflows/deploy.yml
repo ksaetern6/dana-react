@@ -1,4 +1,5 @@
-name: S3 Sync - Production
+name: Deploy to Production
+run-name: Build and Deploy to S3
 
 on:
   push:
@@ -40,7 +41,7 @@ jobs:
     needs: build
     steps:
     - name: Download landing page artifact
-      uses: actions/download-artifact@v2
+      uses: actions/download-artifact@v4
       with:
         name: web-app-dist
         path: dist
