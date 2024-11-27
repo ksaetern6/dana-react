@@ -14,7 +14,7 @@ export default function Header() {
 
     return (
         <>
-            <header>
+            <header className="max-w-[1200px] m-auto">
                 <section className="pt-2">
                     <div>
                         <ul className="flex flex-row uppercase text-xs justify-center">
